@@ -1,3 +1,4 @@
 def hello():
-    print("Hello, world!")
+    # pylint: disable=unused-variable
+    print("Hello, universe! How are you?")
     return 23
